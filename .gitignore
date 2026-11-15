@@ -1,0 +1,56 @@
+# ==================== 操作系统 / 编辑器 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.iml
+.vscode/
+.history/
+*.swp
+*.swo
+
+# AI 编辑器个人规则（本地配置，不共享）
+.cursor/
+
+# ==================== 日志 / 临时文件 ====================
+*.log
+logs/
+*.tmp
+*.bak
+*.orig
+hs_err_pid*
+
+# ==================== 前端：Node / Vite（vue/） ====================
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.cache/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# 本地私有的环境变量覆盖文件（需提交的是 .env.development / .env.production）
+*.local
+.env.local
+.env.*.local
+
+# ==================== 后端：Java / Maven（springboot/） ====================
+target/
+*.class
+*.jar
+*.war
+*.ear
+out/
+bin/
+
+# ==================== 压缩包等大文件 ====================
+*.zip
+*.7z
+
+# ==================== 说明 ====================
+# springboot/files 为运行时上传目录，但示例数据（商品图、头像）依赖其中的文件，
+# 为保证 clone 后页面图片正常显示，该目录随仓库一起提交，因此不做忽略。
